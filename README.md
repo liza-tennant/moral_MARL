@@ -41,7 +41,7 @@ pip install -r requirements.txt
 
 This code can be used to run a simulation of social dilemma games within populations agents - at every step, an agent M selects an opponent O, and then M and O play a one-shot Prisoner's Dilemma game. We use a Reinforcement Learning paradigm where each agent learns accoridng to a reward signal:
 
-![Reinformcenet Learning by a Moral learning agent M and a learning opponent O](pics/diagram_V2.png "Reinformcenet Learning by a Moral learning agent M and a learning opponent O")
+![Payoffs for players M and O](pics/payoffs.png)
 
 the reward is defined by the agent's payoff in a game.
 
