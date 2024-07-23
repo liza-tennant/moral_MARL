@@ -91,6 +91,12 @@ python3 main.py --destination_folder 1xUT_1xaUT_1xDE --num_iterations 30000 --nu
 
 ## Plotting 
 
-...
+The following parametes were used for the main experiments - these are possible top modify in the command line or in the config.py file. ]
+
+```
+--num_iterations 30000 
+--num_runs 20 
+```
+
 
 
