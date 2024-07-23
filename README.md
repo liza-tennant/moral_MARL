@@ -43,12 +43,7 @@ This code can be used to run a simulation of social dilemma games within populat
 The reward is defined by the agent's payoff in a game:
 ![Payoffs for players M and O](pics/payoffs.png)
 
-
-<p align="center">
-  <img src="https://github.com/Liza-Karmannaya/modeling_moral_choice_dyadic/blob/main/pics/payoffs.png" />
-</p>
-
-We use a apradig where each gent learns how to select a partner AND learns how to play the game using the same reward signal. 
+We use a pradigm where each gent learns how to select a partner AND learns how to play the game using the same reward signal. 
 
 ## The agents 
 
@@ -60,7 +55,34 @@ These experiments conduct a systematic comparison of interactions between pairs 
 
 ## Run the experiments
 
-...
+### Setup 
+
+Env setup & package installs 
+
+
+### Simple test for running population simulation 
+```
+python3 main.py --destination_folder 3xS --num_iterations 10 --num_runs 1
+```
+
+### Run core experiments, population size = 16 
+```
+python3 main.py --destination_folder 8xS_1xUT_1xaUT_1xDE_1xmDE_1xVEe_1xVie_1xVEk_1xVagg --num_iterations 30000 --num_runs 20 & 
+python3 main.py --destination_folder 1xS_8xUT_1xaUT_1xDE_1xmDE_1xVEe_1xVie_1xVEk_1xVagg --num_iterations 30000 --num_runs 20 & 
+python3 main.py --destination_folder 1xS_1xUT_8xaUT_1xDE_1xmDE_1xVEe_1xVie_1xVEk_1xVagg --num_iterations 30000 --num_runs 20 & 
+python3 main.py --destination_folder 1xS_1xUT_1xaUT_8xDE_1xmDE_1xVEe_1xVie_1xVEk_1xVagg --num_iterations 30000 --num_runs 20 & 
+python3 main.py --destination_folder 1xS_1xUT_1xaUT_1xDE_8xmDE_1xVEe_1xVie_1xVEk_1xVagg --num_iterations 30000 --num_runs 20 & 
+python3 main.py --destination_folder 1xS_1xUT_1xaUT_1xDE_1xmDE_8xVEe_1xVie_1xVEk_1xVagg --num_iterations 30000 --num_runs 20 & 
+python3 main.py --destination_folder 1xS_1xUT_1xaUT_1xDE_1xmDE_1xVEe_8xVie_1xVEk_1xVagg --num_iterations 30000 --num_runs 20 & 
+python3 main.py --destination_folder 1xS_1xUT_1xaUT_1xDE_1xmDE_1xVEe_1xVie_8xVEk_1xVagg --num_iterations 30000 --num_runs 20 & 
+python3 main.py --destination_folder 1xS_1xUT_1xaUT_1xDE_1xmDE_1xVEe_1xVie_1xVEk_8xVagg --num_iterations 30000 --num_runs 20 
+```
+
+You can use the code in this repository to also run simulations with fewer agents or different opulation compositions - just swap out the number and player type title in the parameters above (e.g.,:
+
+```
+python3 main.py --destination_folder 1xUT_1xaUT_1xDE --num_iterations 30000 --num_runs 20 & 
+``` 
 
 
 ## Parameters
