@@ -53,9 +53,9 @@ We use a apradig where each gent learns how to select a partner AND learns how t
 
 ## The agents 
 
-These experiments conduct a systematic comparison of interactions between pairs of various moral learning agents in each of the dilemma games. The moral agents are defined using the following intrnisic rewards: 
+These experiments conduct a systematic comparison of interactions between pairs of various moral learning agents in each of the dilemma games. The moral agents (prosocial and antisocial) are defined using the following intrnisic rewards: 
 
-![Rewards](pics/moralrewards.png "Rewards")
+![Rewards](pics/moral_rewards.png "Rewards")
 
 
 
