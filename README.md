@@ -23,7 +23,7 @@ If you use this code, please cite the following paper:
   month     = {},
   note      = {Main Track},
   doi       = {},
-  url       = {[https://arxiv.org/abs/2403.04202](https://arxiv.org/abs/2403.04202)},
+  url       = {https://arxiv.org/abs/2403.04202},
 }
 
 ```
@@ -31,6 +31,8 @@ If you use this code, please cite the following paper:
 You can contact the authors at: `l.karmannaya.16@ucl.ac.uk`
 
 ## Setup
+
+see main.py 
 
 Intall packages listed in requirements.txt into a Python environment. 
 ```
@@ -58,6 +60,7 @@ These experiments conduct a systematic comparison of interactions between pairs 
 ### Setup 
 
 Env setup & package installs 
+see main.py 
 
 
 ### Simple test for running population simulation 
