@@ -23,7 +23,7 @@ If you use this code, please cite the following paper:
   month     = {},
   note      = {Main Track},
   doi       = {},
-  url       = {[https://doi.org/10.24963/ijcai.2023/36](https://arxiv.org/abs/2403.04202)},
+  url       = {[https://arxiv.org/abs/2403.04202](https://arxiv.org/abs/2403.04202)},
 }
 
 ```
@@ -87,16 +87,17 @@ python3 main.py --destination_folder 1xUT_1xaUT_1xDE --num_iterations 30000 --nu
 
 ## Parameters
 
-...
-
-## Plotting 
-
-The following parametes were used for the main experiments - these are possible top modify in the command line or in the config.py file. ]
-
+The following command line parametes were used for the main experiments:
 ```
 --num_iterations 30000 
 --num_runs 20 
 ```
+
+For all other parameters, see the simulation/config.py file. 
+
+## Plotting 
+
+see plotting.py
 
 
 
