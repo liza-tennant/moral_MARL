@@ -3,7 +3,11 @@
 This repository contains implementation and analysis code for the following paper: 
 Dynamics of Moral Behavior in Heterogeneous Populations of Learning Agents, AIES'24. 
 
-[(arXiv version with Appendix)](https://arxiv.org/abs/2403.04202) 
+[(Paper & Appendix on arXiv)](https://arxiv.org/abs/2403.04202) 
+
+![Selections - eg1](pics/matrix_selections_bipartite_byplayertype_populmajority-S_thresholdFalse.pdf)
+![Selections - eg2](pics/matrix_selections_bipartite_byplayertype_populmajority-De_thresholdFalse.pdf)
+
 
 
 ## Cite us
