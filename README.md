@@ -1,9 +1,7 @@
 # Dynamics of Moral Behavior in Heterogeneous Populations of Learning Agents
 
 This repository contains implementation and analysis code for the following paper: 
-Dynamics of Moral Behavior in Heterogeneous Populations of Learning Agents, AIES'24. 
-
-[(Paper & Appendix on arXiv)](https://arxiv.org/abs/2403.04202) 
+Dynamics of Moral Behavior in Heterogeneous Populations of Learning Agents, AIES'24. [(Paper & Appendix on arXiv)](https://arxiv.org/abs/2403.04202) 
 
 <img src="pics/pic0.png" alt="Selectiosn-eg0" width="450"/> <img src="pics/pic1.png" alt="Selectiosn-eg1" width="450"/>
 
