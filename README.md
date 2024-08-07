@@ -5,8 +5,8 @@ Dynamics of Moral Behavior in Heterogeneous Populations of Learning Agents, AIES
 
 [(Paper & Appendix on arXiv)](https://arxiv.org/abs/2403.04202) 
 
-![Selections - eg1](pics/matrix_selections_bipartite_byplayertype_populmajority-S_thresholdFalse.pdf)
-![Selections - eg2](pics/matrix_selections_bipartite_byplayertype_populmajority-De_thresholdFalse.pdf)
+![Selections - eg1](pic0.png)
+![Selections - eg2](pic1.png)
 
 
 
