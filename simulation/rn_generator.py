@@ -3,8 +3,8 @@ import os
 
 class my_RN_generator: 
     """ this class takes in a single master_seed (defined before each set of runs) and creates:
-    - 2 streams of numbers for players 1&2, 
-    - then, for each player, 9 streams of numbers to be used in the experiments.
+    - 2 streams of numbers for players 1&2; then, for each player, 11 streams of numbers to be used in the experiments
+    - 4 streams of nummbers for the game environment itself
     
     It allows us to generate 10 random numbers for every player: 
     [0] 'empty_Q': random move when dilemma memory buffer is empty, 
@@ -20,7 +20,7 @@ class my_RN_generator:
     [10]'sel_DQN_weights': seed for selection Q-network weights initialisation (INT),
     [11]'sel_memory_sampling': seed for sampling selection experience from memory buffer (INT) 
 
-    Additionaly, we generate the following 3 streams for the game environment itself: 
+    Additionaly, we generate the following 4 streams for the game environment itself: 
     [0] 'sample_leading_player': random sampling of leading_player (player1) from the populaiton as we loop over iterations 
     [1] 'sample_opponent': randomly sample opponent (player2) in game.random_matching (if not using partner selection)
     [2] 'initial env_state': random initial state for the game environment
