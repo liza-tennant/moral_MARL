@@ -102,7 +102,7 @@ For all other parameters, see the simulation/config.py file.
 
 ## Plotting 
 
-see plotting.py
+see ```plotting.py```
 
 
 
