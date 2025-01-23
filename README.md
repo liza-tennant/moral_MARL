@@ -21,6 +21,7 @@ If you use this code, please cite the following paper:
   year      = {2024},
   month     = {10},
   note      = {Main Track},
+  doi       = {10.1609/aies.v7i1.31736}, 
   doi       = {https://doi.org/10.1609/aies.v7i1.31736}
 }
 
