@@ -23,7 +23,7 @@ If you use this code, please cite the following paper:
   month     = {},
   note      = {Main Track},
   doi       = {},
-  url       = {https://arxiv.org/abs/2403.04202},
+  url       = {https://doi.org/10.1609/aies.v7i1.31736},
 }
 
 ```
