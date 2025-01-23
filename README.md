@@ -17,13 +17,11 @@ If you use this code, please cite the following paper:
   author    = {Tennant, Elizaveta and Hailes, Stephen and Musolesi, Mirco},
   booktitle = {Proceedings of the 7th AAAI/ACM Conference on AI, Ethics & Society (AIES'24)},
   publisher = {AAAI / ACM},
-  editor    = {},
-  pages     = {},
+  pages     = {1444-1454},
   year      = {2024},
-  month     = {},
+  month     = {10},
   note      = {Main Track},
-  doi       = {},
-  url       = {https://doi.org/10.1609/aies.v7i1.31736},
+  doi       = {https://doi.org/10.1609/aies.v7i1.31736}
 }
 
 ```
