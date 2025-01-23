@@ -39,13 +39,17 @@ Intall packages listed in requirements.txt into a Python environment.
 pip install -r requirements.txt
 ```
 
+## The problem 
+
+Existing studies implement multi-agent Reinforcement Learning (MARL) with agents all learning according to a similar reward function (usually, indicating Selfish reward). Therefore a gap remians in understanding emergent behaviours and outcomes in MARL interactions among societies of heterogeneous agents. In this paper, we simulate multi-agent learning in societies of morally diverse agents, implementing a partner selection mechanism (Anastassacos et al., 2020) as well as a mechanism for learning to play a dilemma game based on Deep Q-Learning. We evaluate selection patterns including coalition formation, and behaviours emerging in the dilemma game, including exploitation of some player types by others. Finally, we also observe interesting impacts of the prevalenve of certain prosocial agents in a society on the learning of a Selfish agent. 
+
 ## The environment 
 
 This code can be used to run a simulation of social dilemma games within populations agents - at every step, an agent M selects an opponent O, and then M and O play a one-shot Prisoner's Dilemma game. We use a Reinforcement Learning paradigm where each agent learns accoridng to a reward signal:
 The reward is defined by the agent's payoff in a game:
 ![Payoffs for players M and O](pics/payoffs.png)
 
-We use a pradigm where each gent learns how to select a partner AND learns how to play the game using the same reward signal. 
+We use a pradigm where each agent learns how to select a partner AND learns how to play the game using the same reward signal. 
 
 ## The agents 
 
